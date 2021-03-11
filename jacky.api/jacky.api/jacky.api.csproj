@@ -10,4 +10,12 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="power\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\jacky.model\jacky.model.csproj" />
+  </ItemGroup>
+
 </Project>
